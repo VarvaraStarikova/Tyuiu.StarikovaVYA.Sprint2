@@ -15,5 +15,16 @@ namespace Tyuiu.StarikovaVYA.Sprint2.Task4.V19.Test
             double wait = 36.754;
             Assert.AreEqual(wait, res);
         }
+        [TestMethod]
+        public void ValidCondition2()
+        {
+            DataService ds = new DataService();
+            double x = 16;
+            double y = 10;
+            double res = ds.Calculate(x, y);
+            double wait = 2.357;
+            Assert.AreEqual(wait, res);
+
+        }
     }
 }
