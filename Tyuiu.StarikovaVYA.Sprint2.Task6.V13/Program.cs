@@ -34,7 +34,7 @@ namespace Tyuiu.StarikovaVYA.Sprint2.Task6.V13
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            string res = Convert.ToString(ds.FindDateOfNextDay(g, m, n));
+            string res = Convert.ToString(ds.FindDateOfNextDay(n, m, g));
             Console.WriteLine(res);
             Console.ReadLine();
         }
